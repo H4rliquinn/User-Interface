@@ -49,18 +49,97 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: "Titillium Web", sans-serif;
+	width:900px;
+	margin:0 auto;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: "Bangers", cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+nav a{
+	margin:0 20px;
+}
+
+nav img{
+	margin-left: 100px;
+	display: inline-block;
+}
+
+h1{
+	font-size: 50px;
+	font-weight:bold;
+}
+
+h2{
+	font-size:18px;
+	font-weight:600;
+	font-style: italic;
+}
+
+.topContent{
+	margin-top:40px;
+}
+
+.topLeftContent{
+	display: inline-block;
+	width: 450px;
+	vertical-align: top;
+	text-align:center;
+	margin-top:50px;
+}
+
+.startButton{
+	width:100px;
+	border:1px solid grey;
+	margin:20px auto;
+}
+.middleContent{
+	border-top:1px solid black;
+	margin:40px 0px;
+}
+.middleContent div{
+	width:400px;	
+	display:inline-block;
+}
+
+.middle-img{
+	margin:0px 9px;
+}
+
+.bottomContent div{
+	width:280px;	
+	display:inline-block;
+	vertical-align: top;
+}
+.middleContent div{
+	margin:20px 20px 0px 0px;
+}
+
+.bottomContent div{
+	margin:20px 10px 0px 0px;
+}
+
+div p{
+	margin:20px 0px;
+}
+div.address a{display: block;
+	margin:20px 0px;
+	text-decoration: none;
+	color:black;
+}
+
+.copy{
+	width:100%;
+	padding-left:415px;
+}
